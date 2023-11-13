@@ -45,15 +45,18 @@
             Chcete se dozvědět více?
         </p>
 
-        <button class="rounded-md bg-lime-500 text-white uppercase py-2 px-4 hover:bg-lime-600">
+        <button @click="() => contactModalOpen = true" class="rounded-md bg-lime-500 text-white uppercase py-2 px-4 hover:bg-lime-600" >
             Kontaktujte nás
         </button>
         </div>
         </div>
     </div>
+
+    <ContactModal v-if="contactModalOpen" @close="contactModalOpen = false"/>
     </div>
 </template>
 <script setup>
+const contactModalOpen = ref(false);
 </script>
 <style scoped>
 .banner-wrapper {
