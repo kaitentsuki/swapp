@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-gray-900 text-white -mx-20 px-20 flex justify-center py-10 !mt-auto">
-        <div class="max-w-7xl flex w-full space-x-10">
-            <div class="flex flex-col space-y-2 w-1/4">
+    <div class="bg-gray-900 text-white -mx-5 lg:-mx-20 px-5 lg:px-20 flex justify-center py-10 !mt-auto">
+        <div class="max-w-7xl flex lg:flex-row flex-col w-full space-y-10 lg:space-y-0 lg:space-x-10">
+            <div class="flex flex-col space-y-2 lg:w-1/4">
                 <div class="max-h-16 h-full flex-1 pb-8">
                     <img src="@/assets/images/logo_white.png" alt="Logo" class="max-h-[40px]">
                 </div>
@@ -9,7 +9,7 @@
                 <NuxtLink to="#references" class="uppercase link">Reference</NuxtLink>
                 <NuxtLink to="#contact" class="uppercase link">Co děláme</NuxtLink>
             </div>
-            <div class="flex flex-col space-y-2 w-1/4">
+            <div class="flex flex-col space-y-2 lg:w-1/4">
                 <div class="max-h-16 h-full flex-1 pb-8">
                     <h4 class="font-bold uppercase">Nabídka služeb</h4>
                 </div>
@@ -17,19 +17,19 @@
                 <NuxtLink to="#" class="uppercase link">Automatizace provozu</NuxtLink>
                 <NuxtLink to="#" class="uppercase link">Aplikace na míru</NuxtLink>
             </div>
-            <div class="flex flex-col space-y-2 flex-1 w-2/4">
+            <div class="flex flex-col space-y-2 flex-1 lg:w-2/4">
                 <div class="max-h-16 h-full flex-1 pb-8">
                     <h4 class="font-bold uppercase">Kontakt</h4>
                 </div>
-               <div class="flex justify-between">
-                <span class="uppercase">
+               <div class="flex justify-between flex-wrap">
+                <span class="uppercase block w-full lg:inline-block">
                     Obchod
                 </span>
                 <a href="tel:+420731105037" class="text-lime-500 uppercase hover:underline">+420 731 105 037</a>
                 <span class="text-lime-500 uppercase">PO-PÁ: 9:00 - 16:00</span>
                </div>
-               <div class="flex justify-between">
-                <span class="uppercase">
+               <div class="flex flex-wrap justify-between">
+                <span class="uppercase block w-full lg:inline-block">
                     Podpora
                 </span>
                 <a href="tel:+420739101800" class="text-lime-500 uppercase hover:underline">+420 739 101 800</a>

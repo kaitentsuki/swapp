@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col">
-        <div class="h-full flex pt-40 -mx-20 -mt-3 px-20 pb-20 banner-wrapper min-h-[500px] justify-center">
+        <div class="h-full flex pt-40 -mx-5 lg:-mx-20 -mt-3 px-5 lg:px-20 pb-20 banner-wrapper min-h-[500px] justify-center">
         <div class="w-full flex justify-between max-w-7xl">
             <div class="w-full sm:w-1/2 animate-slideLeft delay-750">
             <h1 class="font-bold text-lime-400 text-6xl leading-[1.2]">
@@ -37,7 +37,7 @@
         <ReferencesList />
         </div>
     </div>
-    <div class="py-10 flex justify-center bg-gray-100 -mx-20" id="contact">
+    <div class="py-10 flex justify-center bg-gray-100 lg:-mx-20" id="contact">
         <div class="text-center">
             <div class="max-w-7xl">
             <h2 class="font-medium text-3xl uppercase mb-4">Zajímá vás řešení SWAPP?</h2>
