@@ -13,7 +13,7 @@
                     <div class="text-xl font-medium">
                         {{ title }}
                     </div>
-                <button type="button" class="ml-auto rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" @click="open = false">
+                <button type="button" class="ml-auto rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                   <span class="sr-only">Close</span>
                   <Icon name="fa6-solid:xmark" class="h-6 w-6" size="20" aria-hidden="true" @click="emit('close')"/>
                 </button>
@@ -30,12 +30,12 @@
   </template>
   
   <script setup>
-  import { ref } from 'vue'
-  import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
+  import { ref } from 'vue';
+  import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue';
   
   const props = defineProps({
     title: String
-  })
+  });
 
   const emit = defineEmits(['close']);
 
